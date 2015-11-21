@@ -6,8 +6,15 @@
         <description><![CDATA[mkl's blog]]></description>
         <atom:link href="http://lambdanaut.net/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Mon, 09 Nov 2015 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Sat, 21 Nov 2015 00:00:00 UT</lastBuildDate>
         <item>
+    <title>Photos</title>
+    <link>http://lambdanaut.net/blog/2015-11-21-photos/index.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>Sat, 21 Nov 2015 00:00:00 UT</pubDate>
+    <guid>http://lambdanaut.net/blog/2015-11-21-photos/index.html</guid>
+</item>
+<item>
     <title>L'ennui du dimanche après midi</title>
     <link>http://lambdanaut.net/blog/2015-11-09-ennui-dimanche/index.html</link>
     <description><![CDATA[]]></description>
@@ -139,13 +146,6 @@
     <description><![CDATA[]]></description>
     <pubDate>Sun, 25 May 2014 00:00:00 UT</pubDate>
     <guid>http://lambdanaut.net/blog/2014-05-25-flash-bounce/index.html</guid>
-</item>
-<item>
-    <title>Streets of Arnhem</title>
-    <link>http://lambdanaut.net/blog/2014-05-24-arnhem/index.html</link>
-    <description><![CDATA[]]></description>
-    <pubDate>Sat, 24 May 2014 00:00:00 UT</pubDate>
-    <guid>http://lambdanaut.net/blog/2014-05-24-arnhem/index.html</guid>
 </item>
 
     </channel> 
