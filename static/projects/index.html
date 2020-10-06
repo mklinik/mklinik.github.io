@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>mkl - Projects</title>
+        <link rel="stylesheet" type="text/css" href="../../css/default.css" />
+        <link rel="alternate" type="application/rss+xml" title="mkl's blog" href="../../rss.xml" />
+    </head>
+    <body>
+        <a href="../../">home</a>
+<h1>Projects</h1>
+<p>A random collection of my programming projects. Some of these projects are quite old and may no longer compile because of bit rot.</p>
+<h2 id="for-work">For work</h2>
+<ul>
+<li><strong>SECA</strong> - Symbolic Energy Consumption Analysis
+<ul>
+<li>A symbolic execution engine for a small C-like imperative programming language called SECA</li>
+<li>The SECA language has special statements for controlling hardware</li>
+<li>The analysis predicts total energy consumption of the hardware a program controls, visualized over lines of code</li>
+<li>Written in Haskell</li>
+<li><a href="https://gitlab.science.ru.nl/mklinik/eca-symbolic-execution">https://gitlab.science.ru.nl/mklinik/eca-symbolic-execution</a></li>
+</ul></li>
+<li><strong>Brightspace Grading Tools</strong>
+<ul>
+<li><strong>no-bs</strong> is a command-line application for interfacing with the Brightspace web API</li>
+<li>Brightspace is a digital learning environment used at Radboud University</li>
+<li>I wrote it to automate downloading of student assignment submissions, distributing them to teaching assistants, and uploading the grades back to Brightspace</li>
+<li>Written in Python</li>
+<li><strong>bs-grades</strong> is a tool for parsing, querying and evaluating the grade .cvs files you can export from Brightspace</li>
+<li>Useful when talking to students, when you need a quick overview of their progress</li>
+<li>Written in Haskell</li>
+<li><a href="https://gitlab.science.ru.nl/mklinik/brightspace-grading-tool">https://gitlab.science.ru.nl/mklinik/brightspace-grading-tool</a></li>
+</ul></li>
+<li><strong>Resource Analysis</strong>
+<ul>
+<li>A Hindley-Milner type inference algorithm for a small functional task-oriented programming language</li>
+<li>Piggy-backing on the type system is an effect system that analyses resource consumption of all tasks in a program</li>
+<li><a href="https://gitlab.science.ru.nl/mklinik/program-analysis">https://gitlab.science.ru.nl/mklinik/program-analysis</a></li>
+</ul></li>
+<li><strong>Genetic Algorithm Scheduler</strong>
+<ul>
+<li>A scheduler for the Multi-Skill Resource Constrained Project Scheduling Problem (MSRCPSP)</li>
+<li>In addition to the MSRCPSP we want arbitrary computable constraints and fitness functions</li>
+<li>Uses a genetic algorithm to compute a schedule, given:
+<ul>
+<li>a partially-ordered set of tasks to execute</li>
+<li>resource requirements of the tasks</li>
+<li>available resources</li>
+<li>a user-defined fitness function</li>
+</ul></li>
+<li>Written in Clean</li>
+<li><a href="https://gitlab.science.ru.nl/mklinik/ga-scheduler">https://gitlab.science.ru.nl/mklinik/ga-scheduler</a></li>
+</ul></li>
+<li><strong>Computer Algebra</strong>
+<ul>
+<li>Solutions to exercises for the master’s course Computer Algebra at Radboud University</li>
+<li>Written in Magma</li>
+<li><a href="https://github.com/mklinik/computerAlgebra">https://github.com/mklinik/computerAlgebra</a></li>
+</ul></li>
+<li><strong>MFoCS</strong>
+<ul>
+<li>Homework and projects for various courses of the Mathematical Foundations of Computing Science (MFoCS) master’s programme at Radboud University</li>
+<li>Some functional programming in Clean</li>
+<li>A compiler with Hindley-Milner type inference for an imperative programming language with structural record subtyping, written in Haskell</li>
+<li>Some dependently-typed programming in Coq</li>
+<li>Some homework and reports</li>
+<li><a href="https://github.com/mklinik/radboud">https://github.com/mklinik/radboud</a></li>
+</ul></li>
+</ul>
+<h2 id="for-fun">For fun</h2>
+<ul>
+<li><strong>Dauntless Loadout Optimizer</strong>
+<ul>
+<li>For the online game Dauntless</li>
+<li>You give it requirements about the loadout you want, it gives you all combinations of equipment that satisfy the requirements</li>
+<li>Implemented in Haskell</li>
+<li><a href="https://github.com/mklinik/dauntless-loadout-optimizer">https://github.com/mklinik/dauntless-loadout-optimizer</a></li>
+</ul></li>
+<li><strong>Travel Expenses</strong>
+<ul>
+<li>After a trip with a group of people where many expenses were made, calculate who owes money to whom</li>
+<li>Written in Haskell</li>
+<li><a href="https://github.com/mklinik/travelExpenses">https://github.com/mklinik/travelExpenses</a></li>
+</ul></li>
+<li><strong>bibtextool</strong>
+<ul>
+<li>Prettyprint, analyze, and find duplicates in bibtex .bib bibliography files</li>
+<li>Written in Haskell</li>
+<li><a href="https://github.com/mklinik/bibtextool">https://github.com/mklinik/bibtextool</a></li>
+</ul></li>
+<li><strong>dock-undock</strong>
+<ul>
+<li>Tool to execute various system commands when I dock or undock my laptop</li>
+<li>For example switch screens and resolutions, set keyboard layout and speed, set mouse speed</li>
+<li>Involves some parsing, which I did not want to do in bash</li>
+<li>Written in Haskell, because Haskell is the best scripting language</li>
+<li><a href="https://github.com/mklinik/dock-undock">https://github.com/mklinik/dock-undock</a></li>
+</ul></li>
+<li><strong>hmud</strong>
+<ul>
+<li>Multi-user dungeon that can interface with Jabber group chats and irc channels</li>
+<li>People in the chat get associated with a randomly generated character</li>
+<li>People can pick up, drop, and trade items</li>
+<li>Written in Haskell</li>
+<li><a href="http://lambdanaut.net/hmud/">website</a></li>
+<li><a href="https://github.com/mklinik/hmud">source code</a></li>
+</ul></li>
+<li><strong>ticketBot</strong>
+<ul>
+<li>Web scraper for the ticket system of the Radboud University sports center</li>
+<li>When you want to do sports there you have to reserve a ticket</li>
+<li>Tickets are often gone very quickly, but become available before the lesson starts as people drop out</li>
+<li>You have to be fast to grab one of those tickets</li>
+<li>The bot automates polling, and automatically reserves a ticket as soon as one becomes available</li>
+<li>Written in Haskell</li>
+<li>Source code not available, I wrote it only for myself and don’t want other people to use it</li>
+</ul></li>
+<li><strong>commaFirst</strong>
+<ul>
+<li>Parser and pretty-printer for a subset of the syntax of C++</li>
+<li>Formats function call expressions in comma-first style</li>
+<li>Intended to be used as pipe command in vim</li>
+<li>You have to visually select a function call statement and pipe it through commaFirst</li>
+<li><a href="https://github.com/mklinik/commaFirst">https://github.com/mklinik/commaFirst</a></li>
+</ul></li>
+<li><strong>uscs2011</strong>
+<ul>
+<li>Exercises and projects for the Utrecht Summer School in Computer Science: Applied Functional Programming</li>
+<li>Some random Haskell code</li>
+<li><a href="https://github.com/mklinik/uscs2011">https://github.com/mklinik/uscs2011</a></li>
+<li><a href="https://www.phil.uu.nl/~clemens/Haskell-summerschool-2011.html">some photos</a></li>
+</ul></li>
+<li><strong>mciij2e</strong>
+<ul>
+<li>Implementation of a compiler from Andrew Appel’s book “Modern Compiler Implementation in Java, 2nd edition”</li>
+<li>A compiler (or just the parser? Too long ago, don’t remember) for a small Java-like language, written in Java</li>
+<li><a href="https://github.com/mklinik/mciij2e">https://github.com/mklinik/mciij2e</a></li>
+</ul></li>
+<li><strong>gpx2tango</strong>
+<ul>
+<li>Once upon a time I owned a Nokia n900</li>
+<li>It had an app called TangoGPS, which I used for geocaching</li>
+<li>This script imports .gpx files, downloadable from geocaching.com, into the TangoGPS sqlite database</li>
+<li>Written in bash and xslt transformations</li>
+<li>Source code available on request</li>
+</ul></li>
+<li><strong>programmingGroundUp</strong>
+<ul>
+<li>The book “Programming from the Ground Up” by Jonathan Bartlett teaches programming in x86 assembler</li>
+<li>This repository contains some assembler programs from the book</li>
+<li>Written in x68 assembler</li>
+<li><a href="https://github.com/mklinik/programmingGroundUp">https://github.com/mklinik/programmingGroundUp</a></li>
+</ul></li>
+<li><strong>haskey</strong>
+<ul>
+<li>Server-side search keywords</li>
+<li>Some browsers support search keywords, for example when you type “g foobar” it searches google for “foobar”, or “w haskell” it searches wikipedia for “haskell”</li>
+<li>I want the same search keywords consistent across all browsers, across all devices, even mobile</li>
+<li>This program runs on a server of your choice, at that time I had a dedicated server</li>
+<li>You set the server as the default search engine in any browser</li>
+<li>Searches from your browser are then sent to haskey, which answers with a redirect to the respective search engine</li>
+<li>Written in Haskell</li>
+<li><a href="https://github.com/mklinik/haskey">https://github.com/mklinik/haskey</a></li>
+</ul></li>
+<li><strong>sanitize</strong>
+<ul>
+<li>Script to sanitize file names</li>
+<li>When you download files from the internet they often have special characters and spaces in file names</li>
+<li>Converting them to underscores is surprisingly tricky in bash</li>
+<li><code>weird file name[from%20the%20int(e)rnet]</code> becomes <code>weird_file_name_from_20_the_20_int_e_rnet</code></li>
+<li>Written in Haskell because quoting and text replacement in bash is a nightmare</li>
+<li>Source code available on request</li>
+</ul></li>
+<li><strong>pandoc-wikiwords</strong>
+<ul>
+<li>Pandoc plugin for translating WikiWords to URLs to local files</li>
+<li>I wrote it because my personal notes are stored in a plain-text markdown wiki, which I then convert to HTML pages with automatic wiki links</li>
+<li>Written in Haskell</li>
+<li><a href="https://github.com/mklinik/pandoc-wikiwords">https://github.com/mklinik/pandoc-wikiwords</a></li>
+</ul></li>
+<li><strong>latex-ide</strong>
+<ul>
+<li>Very simple IDE for writing latex documents</li>
+<li>Used to be a Haskell program, now it is just a latexmk config file</li>
+<li>Connects zathura (pdf viewer), vim, and latex to provide backwards and forwards synctex, and auto-recompiles on save</li>
+<li><a href="https://github.com/mklinik/latex-ide/">https://github.com/mklinik/latex-ide/</a></li>
+</ul></li>
+<li><strong>haskell-misc</strong>
+<ul>
+<li>dumping ground for all sorts of Haskell snippets</li>
+<li><a href="https://github.com/mklinik/haskell-misc">https://github.com/mklinik/haskell-misc</a></li>
+</ul></li>
+</ul>
+<h2 id="contributions">Contributions</h2>
+<p>Some open source projects I have contributed to.</p>
+<ul>
+<li>A color scheme based on vim’s wombat for the sup email client
+<ul>
+<li><a href="https://github.com/mklinik/sup-colorscheme-wombat">sup color scheme</a></li>
+<li><a href="http://sup-heliotrope.github.io/">sup email client</a></li>
+</ul></li>
+<li>Nested ssl proxy connections for ncat
+<ul>
+<li>Allows you to tunnel an ssl connection over another ssl connection</li>
+<li>The patch is somewhere in the project’s history</li>
+<li><a href="https://nmap.org/ncat/">ncat</a></li>
+</ul></li>
+<li>True half-page scrolling for the astroid email client
+<ul>
+<li><a href="https://github.com/astroidmail/astroid">astroid</a></li>
+<li>TODO: make pull request upstream</li>
+</ul></li>
+</ul>
+
+
+  
+
+
+    </body>
+</html>
